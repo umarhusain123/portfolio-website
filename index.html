@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar Husain Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Umar Husain</h1>
+        <p>Pune, Maharashtra</p>
+        <p><a href="mailto:husainumar37@gmail.com">husainumar37@gmail.com</a></p>
+        <p>+91 84089 87887</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#personal-details">Personal Details</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="personal-details">
+        <h2>Personal Details</h2>
+        <p>Date of Birth: 2001-10-19</p>
+        <p>Eligible to work in: India</p>
+        <p>Highest Career Level: 1-2 years experience</p>
+        <p>Industry: Software Development</p>
+        <p>Total years of experience: 2</p>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <h3>Full Stack Web Developer</h3>
+        <p>RegalarTech Pvt. Ltd. - Pune, Maharashtra</p>
+        <p>March 2023 to Present</p>
+        <ul>
+            <li>UI/UX Designing</li>
+            <li>PHP Development in CodeIgniter</li>
+            <li>JavaScript Development</li>
+            <li>WordPress</li>
+        </ul>
+        <h3>PHP Laravel Developer</h3>
+        <p>Flymingo Tech - Pune, Maharashtra</p>
+        <p>January 2022 to February 2023</p>
+        <ul>
+            <li>Laravel Development</li>
+            <li>CodeIgniter 3 & 4</li>
+            <li>Core CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>REST API</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Master's degree in Computer Applications</p>
+        <p>Aasma College of Institute - Pune, Maharashtra</p>
+        <p>July 2023 to Present</p>
+        <p>Bachelor's degree in BCA</p>
+        <p>Abeeda Inamdar Senior College Pune - Pune, Maharashtra</p>
+        <p>August 2020 to August 2023</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills / IT Skills</h2>
+        <ul>
+            <li>PHP (2 years)</li>
+            <li>Laravel (1 year)</li>
+            <li>JavaScript (2 years)</li>
+            <li>HTML5 (2 years)</li>
+            <li>CSS (2 years)</li>
+            <li>MySQL (2 years)</li>
+            <li>Bootstrap (2 years)</li>
+            <li>WordPress (Less than 1 year)</li>
+            <li>CodeIgniter (2 years)</li>
+            <li>CSS3</li>
+            <li>AJAX</li>
+            <li>REST API (2 years)</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>English - Fluent</li>
+            <li>Marathi - Fluent</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects / Papers Presented</h2>
+        <ul>
+            <li><strong>Azam Deal</strong> - <a href="https://azamdeal.com/" target="_blank">https://azamdeal.com/</a>
+                <button onclick="showModal('Azam Deal', 'Online platform selling herbal medicines: Offers natural remedies like herbal teas, supplement with product info quality assurance and convenient shopping, promoting health and wellness through plant-based solutions.')">Details</button>
+            </li>
+            <li><strong>New India Cement Pipes</strong> - <a href="https://www.nicppune.com/" target="_blank">https://www.nicppune.com/</a>
+                <button onclick="showModal('New India Cement Pipes', 'A website for a cement company serves as an online storefront for customers to explore and purchase cement-related products, including various types of cement, concrete mixes, and construction materials.')">Details</button>
+            </li>
+            <li><strong>Sir Atal Bihari Vajpayee Hospital Management System</strong> - <a href="https://abvh.vanburentechnologies.com/site/login" target="_blank">https://abvh.vanburentechnologies.com/site/login</a>
+                <button onclick="showModal('Sir Atal Bihari Vajpayee Hospital Management System', 'A hospital management system website provides healthcare facilities with a digital platform to streamline administrative tasks, patient records, appointments, and resource allocation for efficient and organized medical operations.')">Details</button>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
